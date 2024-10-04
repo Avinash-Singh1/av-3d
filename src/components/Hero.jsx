@@ -60,7 +60,7 @@ const Hero = () => {
       {/* Other components and spaceman animation */}
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="relative w-full h-full flex justify-center items-center mt-[490px]">
-          <div className="w-[120%] h-[120%] opacity-80">
+          <div className="w-[100%] h-[100%] opacity-80">
             <SpacemanCanvas className="w-full h-full" />
           </div>
         </div>
