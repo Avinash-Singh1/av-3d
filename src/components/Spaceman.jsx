@@ -28,11 +28,13 @@ const SpacemanCanvas = ({ scrollContainer }) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = scrollContainer.current.scrollTop;
-      const rotationXValue = scrollTop * -0.0006;
-      const rotationYValue = scrollTop * -0.00075;
-      setRotationX(rotationXValue);
-      setRotationY(rotationYValue);
+      if (scrollContainer && scrollContainer.current) {
+        const scrollTop = scrollContainer.current.scrollTop;
+        const rotationXValue = scrollTop * -0.0006;
+        const rotationYValue = scrollTop * -0.00075;
+        setRotationX(rotationXValue);
+        setRotationY(rotationYValue);
+      }
     };
 
     const handleResize = () => {
