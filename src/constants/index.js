@@ -33,6 +33,7 @@ import {
   Chemicals,
   Drag_drop,
   Q_auto,
+  User,
  
 } from "../assets";
 
@@ -207,21 +208,21 @@ const testimonials = [
       "Avinash is one of my students who is proficient at data analysis and visualisation using Python. He ensures that all deadlines are met on time and to the highest standards. Through patience and willingness to learn, he made a significant impact on his project and presentation. Aside from direct technical contributions, Avinash demonstrated maturity and thoughtfulness in terms of his values and career objectives. I'm excited to see what the future holds for Avinash!",
     name: "Mahesh Kumar Bhandari",
     designation: "Assistant Professor at University of Delhi",
-    image: jobit,
+    image: User,
   },
   {
     testimonial:
       "I have taught various subjects to Avinash over the years of his graduation. Avinash has always been one of my top notch students with a pristine three years record. He is smart, intelligent, highly skilled, and an inquisitive person. He is always keen to learn new things and works deftly towards achieving his goals. He is a quick learner and quicker in improving upon his mistakes. He also has brilliant leadership qualities.",
     name: "Gunjan R",
     designation: "Assistant Professor at Acharya Narendra Dev College, Delhi University",
-    image: jobit,
+    image: User,
   },
   {
     testimonial:
       "Avinash was one of my students at AND College. His coursework required a project where he upskilled himself to learn and effectively use React JS. Not only did he demonstrate a great interest throughout the project development he supported his team with enthusiasm. I found him to be a diligent and eager learner who absorbed new technology quickly and went out of his way to deliver quality outputs required for the coursework project. I wish he continues on the same learning trajectory and would recommend him to anyone who wants to hire a great learner with a sound technical mind and a dedicated team player.",
     name: "Vandita Grover",
     designation: "Research/Consultant/Advisory/Product Management: Data Analytics, Gen-AI, LLM, Machine Learning",
-    image: jobit,
+    image: User,
   },
 
 ];
