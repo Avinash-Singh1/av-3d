@@ -30,9 +30,32 @@ import carrent from "./carrent.png";
 import jobit from "./covid.png";
 import tripguide from "./tripguide.png";
 import infogenx from "./company/infogenx.png"
+import translate from "./tech/translate.png"
+import User from "./tech/user.png"
+import Music from "./tech/music.png"
+import Todo from "./tech/todo.png"
+import Ecom from "./tech/Ecom.png"
+import Drag_drop from "./tech/drag_drop.png"
+import User_manage from "./tech/usermana.png"
+import Disney from "./tech/disney.png"
+import Loan from "./tech/finance.png"
+import Chemicals from "./tech/Chemicals.png"
+import Q_auto from "./tech/Q_auto.webp"
+
 
 export {
+  Q_auto,
+  translate,
+  Chemicals,
+  Music,
+  Loan,
+  Ecom,
+  User,
+  Todo,
+  Drag_drop,
+  User_manage,
   logo,
+  Disney,
   backend,
   creator,
   mobile,
