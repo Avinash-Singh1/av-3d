@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub } from "react-icons/fa"; // Import the icons
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import SpacemanCanvas from "./Spaceman";
+import { Space_man } from "../assets";
 
 const Hero = () => {
   return (
@@ -58,11 +58,20 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Other components and spaceman animation */}
+      {/* SpacemanCanvas for desktop, image for mobile */}
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="relative w-full h-full flex justify-center items-center mt-[490px]">
-          <div className="w-[100%] h-[100%] opacity-80">
+          <div className="w-[100%] h-[100%] opacity-80 hidden sm:block">
             <SpacemanCanvas className="w-full h-full" />
+          </div>
+
+          {/* Image shown only on mobile screens */}
+          <div className="sm:hidden block">
+            <img
+              src={Space_man} // Make sure to use the correct path to your image
+              alt="Spaceman"
+              className="w-[100%] h-[100%] object-contain" // You can adjust the size or object-fit style as needed
+            />
           </div>
         </div>
       </div>
@@ -84,15 +93,15 @@ const Hero = () => {
           </div>
         </a>
       </div>
-      <div>
-        
-      <img className="parallax__stars" src="./parallax/1Stars.svg" alt="" />
-      <img className="parallax__planets" src="./parallax/2Planets.svg" alt="" />
-      <img className="parallax__mountain1" src="./parallax/3Mountain.svg" alt="" />
-      <img className="parallax__mountain2" src="./parallax/4Mountain.svg" alt="" />
-      <img className="parallax__crater" src="./parallax/5Crater.svg" alt="" />
-      <img className="parallax__sun" src="./parallax/6Sun.svg" alt="" />
 
+      {/* Parallax images */}
+      <div>
+        <img className="parallax__stars" src="./parallax/1Stars.svg" alt="" />
+        <img className="parallax__planets" src="./parallax/2Planets.svg" alt="" />
+        <img className="parallax__mountain1" src="./parallax/3Mountain.svg" alt="" />
+        <img className="parallax__mountain2" src="./parallax/4Mountain.svg" alt="" />
+        <img className="parallax__crater" src="./parallax/5Crater.svg" alt="" />
+        <img className="parallax__sun" src="./parallax/6Sun.svg" alt="" />
       </div>
     </section>
   );

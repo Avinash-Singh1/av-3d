@@ -41,10 +41,13 @@ import Disney from "./tech/disney.png"
 import Loan from "./tech/finance.png"
 import Chemicals from "./tech/Chemicals.png"
 import Q_auto from "./tech/Q_auto.webp"
-
+import Space_man from "./Spaceman.png"
+import Earth from "./earth.png"
 
 export {
   Q_auto,
+  Space_man,
+  Earth,
   translate,
   Chemicals,
   Music,
