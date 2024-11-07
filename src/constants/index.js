@@ -317,7 +317,7 @@ const projects = [
       { name: "TMDB API", color: "green-text-gradient" },
     ],
     image: Disney,
-    source_code_link: "https://github.com/Avinash-Singh1/DisneyPlusHotstarClone",
+    source_code_link: "https://avinash-singh1.github.io/Personal-Projects/",
   },
   {
     name: "Google Translate",
@@ -331,7 +331,7 @@ const projects = [
       { name: "MongoDB", color: "pink-text-gradient" },
     ],
     image: translate,
-    source_code_link: "https://github.com/Avinash-Singh1/GoogleTranslate",
+    source_code_link: "https://avinash-singh1.github.io/Personal-Projects/",
   },
   {
     name: "QuickAuto Cab",
@@ -344,7 +344,7 @@ const projects = [
       { name: "Gomaps Pro API", color: "green-text-gradient" },
     ],
     image: Q_auto,
-    source_code_link: "https://github.com/Avinash-Singh1/QuickAutoCab",
+    source_code_link: "https://avinash-singh1.github.io/Personal-Projects/",
   },
   {
     name: "Finance Application",
@@ -356,7 +356,7 @@ const projects = [
       { name: "MySQL", color: "green-text-gradient" },
     ],
     image: Loan,
-    source_code_link: "https://github.com/Avinash-Singh1/FinanceApplication",
+    source_code_link: "https://avinash-singh1.github.io/Personal-Projects/",
   },
   {
     name: "COVID Tracker Web Application",
@@ -368,7 +368,7 @@ const projects = [
       { name: "Chart.js", color: "pink-text-gradient" },
     ],
     image: jobit,
-    source_code_link: "https://github.com/Avinash-Singh1/CovidTracker",
+    source_code_link: "https://avinash-singh1.github.io/Personal-Projects/",
   },
   {
     name: "User Management System",
@@ -380,7 +380,7 @@ const projects = [
       { name: "MongoDB", color: "pink-text-gradient" },
     ],
     image: User_manage,
-    source_code_link: "https://github.com/Avinash-Singh1/UserManagementSystem",
+    source_code_link: "https://avinash-singh1.github.io/Personal-Projects/",
   },
   {
     name: "Music Player",
@@ -391,7 +391,7 @@ const projects = [
       { name: "Web Audio API", color: "green-text-gradient" },
     ],
     image: Music,
-    source_code_link: "https://github.com/Avinash-Singh1/MusicPlayer",
+    source_code_link: "https://avinash-singh1.github.io/Personal-Projects/",
   },
   {
     name: "To-Do Application",
@@ -403,7 +403,7 @@ const projects = [
       { name: "JavaScript", color: "pink-text-gradient" },
     ],
     image: Todo,
-    source_code_link: "https://github.com/Avinash-Singh1/ToDoApplication",
+    source_code_link: "https://avinash-singh1.github.io/Personal-Projects/",
   },
   {
     name: "Ecommerce UI",
@@ -414,7 +414,7 @@ const projects = [
       { name: "styled-components", color: "green-text-gradient" },
     ],
     image: Ecom,
-    source_code_link: "https://github.com/Avinash-Singh1/EcommerceUI",
+    source_code_link: "https://avinash-singh1.github.io/Personal-Projects/",
   },
   {
     name: "Chemical Management System",
@@ -427,7 +427,7 @@ const projects = [
       { name: "Bootstrap", color: "blue-text-gradient" },
     ],
     image: Chemicals,
-    source_code_link: "https://github.com/Avinash-Singh1/ChemicalManagementSystem",
+    source_code_link: "https://avinash-singh1.github.io/Personal-Projects/",
   },
   {
     name: "Task Track (Drag and Drop)",
@@ -439,7 +439,7 @@ const projects = [
       { name: "TypeScript", color: "blue-text-gradient" },
     ],
     image: Drag_drop,
-    source_code_link: "https://github.com/Avinash-Singh1/TaskTrackDragAndDrop",
+    source_code_link: "https://avinash-singh1.github.io/Personal-Projects/",
   },
 ];
 
