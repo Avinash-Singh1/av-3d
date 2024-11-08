@@ -34,27 +34,22 @@ const Hero = () => {
           </p>
 
           {/* Social Icons Section */}
-          <div className="mt-5 flex gap-6">
-            {/* LinkedIn Icon */}
-            <a
-              href="https://www.linkedin.com/in/avinashsinghh/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-[#0077b5] transition-colors duration-300"
-            >
-              <FaLinkedin size={30} />
-            </a>
+      
+    <div className="mt-5 flex gap-6 relative">
+      {/* LinkedIn Icon */}
+      <FaLinkedin
+        onClick={() => window.open("https://www.linkedin.com/in/avinashsinghh/", "_blank")}
+        size={30}
+        className="text-white hover:text-[#0077b5] transition-colors duration-300 cursor-pointer z-10" // Ensures it is on top
+      />
 
-            {/* GitHub Icon */}
-            <a
-              href="https://github.com/Avinash-Singh1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-[#333] transition-colors duration-300"
-            >
-              <FaGithub size={30} />
-            </a>
-          </div>
+      {/* GitHub Icon */}
+      <FaGithub
+        onClick={() => window.open("https://github.com/Avinash-Singh1", "_blank")}
+        size={30}
+        className="text-white hover:text-[#333] transition-colors duration-300 cursor-pointer z-10" // Ensures it is on top
+      />
+    </div>
         </div>
       </div>
 
